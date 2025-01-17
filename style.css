@@ -225,6 +225,7 @@ fieldset{
      font-size: .8em;
     }
 #logo {
+    mix-blend-mode: multiply;
     height: 4em;
 }
 #navi {
@@ -343,6 +344,9 @@ fieldset{
     }
     .blink {
         display: flex;
+        justify-content: center;
+    }
+    .fieldset {
         justify-content: center;
     }
 }

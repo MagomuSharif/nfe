@@ -263,12 +263,12 @@ fieldset{
 
   .nav-links li {
     margin: 5px 0;
-     padding-bottom: 1em;
-    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
     border-bottom: solid rgba(128, 128, 128, 0.589);
   }
 
-  .nav-links li:hover {
+  .nav-links li::after {
       margin-right: 0;
       border-bottom: solid rgb(194, 24, 24);;
   }
@@ -278,7 +278,7 @@ fieldset{
     color: #333;
   }
 #header {
-    flex-direction: column;
+    flex-direction: column-reverse;
     
     }
     
@@ -321,7 +321,7 @@ fieldset{
         height: 400px;
         gap: 10px;
         align-content: stretch;
-        animation: open 6s both;
+        animation: slider 6s both;
     }
     #img_header2{
         display: none;

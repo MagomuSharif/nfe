@@ -6,21 +6,31 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <nav>
         <img src="./images/nfe logo.png" id="logo" alt="company logo" height="60"
-         style="border-radius: 3px;">
+         style="border-radius: 3px; mix-blend-mode: multiply;">
+
          <ul id="navi">
-            <li><a href="index.html" id="na"><i class="fa fa-home"></i> HOME </a></li>
-            <li><a href="services.html" id="na"><i class="fa fa-briefcase" aria-hidden="true"></i>
+             <li><a href="index.html" id="na"><i class="fa fa-home"></i> HOME </a></li>
+             <li><a href="services.html" id="na"><i class="fa fa-briefcase" aria-hidden="true"></i>
                 OUR SERVICES</a></li>
-            <li><a href="about.html" id="na"><i class="fa fa-users" aria-hidden="true"></i>
+             <li><a href="about.html" id="na"><i class="fa fa-users" aria-hidden="true"></i>
                  ABOUT US</a></li>
-            <li><a href="contact.html" id="na"><i class="fa fa-address-card-o" aria-hidden="true"></i>
+             <li><a href="contact.html" id="na"><i class="fa fa-address-card-o" aria-hidden="true"></i>
                 CONTACT US </a></li>
-        </ul>
+         </ul>
+         <div class="nav-container">
+              <div class="nav-icon" id="nav-icon"><i class="fa fa-bars" id="menu"></i></div>
+             <ul class="nav-links" id="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+             </ul>
+          </div>
+                
     </nav>
     <hr>
 
@@ -32,12 +42,12 @@
     <section id="header">
 
         <div class="hdslide">
-            <img src="./images/arialview.png" id="img_header" alt="">
-            <img src="./images/road0.png" id="img_header" alt="">
+            <img src="./images/arialview.png" id="img_header2" alt="">
+            <img src="./images/road0.png" id="img_header1" alt="">
             <img src="./images/Engineer.webp" id="img_header" alt="">
         </div>
         
-        <div>
+        <div id="intro">
             <p><i>We are a private limited Ugandan Company <br>
                 dealing in General Construction which includes civil works & planning, <br>
                  focusing on the off-grid rural and urban communities of Uganda </i>
@@ -58,7 +68,7 @@
                 <p><b>Tel. No.</b> <br>0701003450 <br>0772887688 <br>
                 <b> e-mail:</b> netfabric2@gmail.com
             </div>
-            <div>
+            <div class="blink">
                 <h3></h3>
                 <li><a href="services.html">Our Services</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -67,6 +77,6 @@
         </div>
         <p id="p">Net Fabric & Engineering (U) Ltd &copy;2025 </p>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
